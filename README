@@ -4,7 +4,7 @@ I want to gauge your comfort level with perhaps an unfamiliar concept along with
 
 This script does not currently run within the PHP runtime.  I want you to fix it.  Correct any syntactical errors that you may find and wrap this function into a class and make it a method.  Write another script that instantiates this class into an object and call this function using your object.
 
-I want you to fork this project into your own repository on the site.  Push your finished code back to your github repo and then perform a pull request using the link on your repo page.  If any of these concepts are unfomiliar to you, please research them.  They represent a basic knowledge of git and are relatively easy to pick up.
+I want you to fork this project into your own repository on the site.  Push your finished code back to your github repo and then perform a pull request using the link on your repo page.  If any of these concepts are unfamiliar to you, please research them.  They represent a basic knowledge of git and are relatively easy to pick up.
 
 Good luck.  I will look for your pull requests tomorrow.
 
