@@ -1,4 +1,4 @@
-This is an implementation for a hysteresis (http://en.wikipedia.org/wiki/Hysteresis) that I wrote in C for an embedded device not to long ago.  The basic principle of a hysteresis is that you create an ordered system out of chaotic variables within a specific upper and lower boundary.
+This is an implementation for a hysteresis (http://en.wikipedia.org/wiki/Hysteresis) that I wrote in C for an embedded device not too long ago.  The basic principle of a hysteresis is that you create an ordered system out of chaotic variables within a specific upper and lower boundary.
 
 I want to gauge your comfort level with perhaps an unfamiliar concept along with testing some relatively simple syntactical principles with respect to PHP.
 
