@@ -1,7 +1,7 @@
 <?PHP
 	class CommTempClass {
 		
-		private $probe1State = false;
+		private $probe1State;
 		private $probe2State;
 		private $probe3State;
 		public $ALARMS_MASK_TEMP1_ALARM = false;
