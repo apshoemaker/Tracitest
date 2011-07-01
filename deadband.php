@@ -4,9 +4,9 @@
 		private $probe1State;
 		private $probe2State;
 		private $probe3State;
-		public $ALARMS_MASK_TEMP1_ALARM = false;
-		public $TEMP_HIGH = 80;
-		public $TEMP_LOW = 50;
+		public $ALARMS_MASK_TEMP1_ALARM;
+		public $TEMP_HIGH;
+		public $TEMP_LOW;
 		public $TEMP_NEUTRAL_ZONE = 10;
 		
 		function _alarm_test($ALARMS_MASK_TEMP1_ALARM, $probe) 
