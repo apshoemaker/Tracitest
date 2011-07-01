@@ -6,11 +6,17 @@ require("deadband.php");
 $tracitest = new Tracitest;
 
 /* Set 3 Alarms / Probes / temps */
-$probes = array(2, 4, 8); 
-foreach ($probes as $probe) {
-	$probes[$probe] = rand(0, 100);
-	$tracitest->_alarm_set($probe);
+$probes = array(rand(0,100), rand(0,100), rand(0,100));
+
+$tracitest->_alarm_set(1, 60);
+
+// Lets try to recreate an alarm just for fun
+$tracitest->_alarm_set(1, 60);
+
+// comm_temp_fire these bad boys
+foreach($probes as $probe => $temp) {
+	echo "Probe {$probe}: ";
+	echo ($tracitest->comm_temp_fire($probe, $temp)) ? 'true' : 'false';
+	echo "<br />";
 }
-var_dump($probes);
-//
 ?>
